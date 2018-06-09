@@ -1,0 +1,6 @@
+from django.contrib import admin
+from .models import Myfirstpost
+
+admin.site.register(Myfirstpost)
+
+# Register your models here.
